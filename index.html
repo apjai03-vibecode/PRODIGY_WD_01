@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft Technologies - Startup Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">CodeCraft</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="content">
+            <h1>Build Your Future With Technology</h1>
+            <p>Innovative software solutions tailored for your business growth.</p>
+            <a href="#services" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>High-performance, modern websites tailored to your brand.</p>
+            </div>
+            <div class="card">
+                <h3>App Development</h3>
+                <p>Native and cross-platform mobile apps with seamless UX.</p>
+            </div>
+            <div class="card">
+                <h3>AI Solutions</h3>
+                <p>Smart automation and data analytics to optimize workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Why Choose Us</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Fast</h3>
+                <p>Optimized for lightning-fast loading speeds and performance.</p>
+            </div>
+            <div class="card">
+                <h3>Secure</h3>
+                <p>Built with industry-standard security protocols to keep data safe.</p>
+            </div>
+            <div class="card">
+                <h3>Responsive</h3>
+                <p>Flawless design execution across desktops, tablets, and phones.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About CodeCraft</h2>
+        <p class="about-text">
+            We are a team of passionate developers, designers, and tech enthusiasts dedicated to transforming ideas into scalable digital realities. Founded with the mission to democratize premium tech solutions, we help startups and established enterprises pivot efficiently into the digital age.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CodeCraft Technologies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
